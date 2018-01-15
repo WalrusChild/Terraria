@@ -65,19 +65,21 @@ namespace WalrusPlugins
                 }
                 else
                 {
-                    Main.NewText("Usage:");
-                    Main.NewText("    Note: this command uses 24 hour time.");
-                    Main.NewText("    /time <hour> <minute>");
-                    Main.NewText("    /time help");
+                    Usage();
                 }
             }
             else
             {
-                Main.NewText("Usage:");
-                Main.NewText("    Note: this command uses 24 hour time.");
-                Main.NewText("    /time <hour> <minute>");
-                Main.NewText("    /time help");
+                Usage();
             }
+        }
+        
+        private void Usage()
+        {
+            Main.NewText("Usage:");
+            Main.NewText("    Note: this command uses 24 hour time.");
+            Main.NewText("    /time <hour> <minute>");
+            Main.NewText("    /time help");
         }
 
         public bool OnChatCommand(string command, string[] args)
@@ -86,10 +88,7 @@ namespace WalrusPlugins
 
             if (args.Length != 2 || args[0] == "help")
             {
-                Main.NewText("Usage:");
-                Main.NewText("    Note: this command uses 24 hour time.");
-                Main.NewText("    /time <hour> <minute>");
-                Main.NewText("    /time help");
+                Usage();
                 return true;
             }
             ChangeTime(args[0], args[1]);
