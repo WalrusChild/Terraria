@@ -6,7 +6,7 @@ The current plugins consist of:
 - Heal plugin - H key default
 - Weather change plugin - Numpad 1, 2, and 3 default
 - Time plugin - can set specific time
-- Insta Kill projectile - x key default
+- Insta Kill projectile - X key default
 
 I will be adding more in the future, so stay tuned!
 
