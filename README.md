@@ -16,6 +16,6 @@ https://forums.terraria.org/index.php?threads/1-3-terrariapatcher-plugins-and-mo
 You can use them by adding the \*.cs files to the Plugins folder. 
 
 # About
-I am just here to have fun.
+I am just here to have fun and share my experimentation/creation with people.
 
 Since January 2018.
