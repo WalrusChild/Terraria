@@ -5,6 +5,7 @@ Here are a couple TerrariaPatcher plugins that I have been working on.
 The current plugins consist of:
 - Heal plugin
 - Weather change plugin
+- Time plugin (can set specific time)
 
 I will be adding more in the future, so stay tuned!
 
