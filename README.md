@@ -21,3 +21,5 @@ You can use them by adding the \*.cs files to the Plugins folder.
 I am just here to have fun and share my experimentation/creation with people.
 
 Since January 2018.
+
+If you would like to for some reason contact me you can with Discord. My ID is 157621355406163968 or scoob#0049
