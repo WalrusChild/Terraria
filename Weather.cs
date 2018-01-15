@@ -66,6 +66,7 @@ namespace WalrusPlugins
                 Main.NewText("    /weather help");
                 return true;
             }
+            ChangeWeather(args[0]);
             return true;
         }
     }
