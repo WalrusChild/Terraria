@@ -3,9 +3,10 @@ Here are a couple TerrariaPatcher plugins that I have been working on.
 
 # Features
 The current plugins consist of:
-- Heal plugin
-- Weather change plugin
-- Time plugin (can set specific time)
+- Heal plugin - H key default
+- Weather change plugin - Numpad 1, 2, and 3 default
+- Time plugin - can set specific time
+- Insta Kill projectile - x key default
 
 I will be adding more in the future, so stay tuned!
 
