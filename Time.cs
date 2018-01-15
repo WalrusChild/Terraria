@@ -63,6 +63,13 @@ namespace WalrusPlugins
                     }
                     Main.time = (time) * 60;
                 }
+                else
+                {
+                    Main.NewText("Usage:");
+                    Main.NewText("    Note: this command uses 24 hour time.");
+                    Main.NewText("    /time <hour> <minute>");
+                    Main.NewText("    /time help");
+                }
             }
             else
             {
