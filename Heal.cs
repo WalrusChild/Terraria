@@ -22,7 +22,7 @@ namespace WalrusPlugins
         private void HealPlayer()
         {
             var player = Main.player[Main.myPlayer];
-            int amt = player.statLifeMax2 - player.statLife;
+            var amt = player.statLifeMax2 - player.statLife;
             player.statLife += amt;
             player.HealEffect(amt, true);
             Main.NewText("Healed " + amt.ToString() + ".");
