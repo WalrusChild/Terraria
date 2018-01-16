@@ -7,6 +7,7 @@ The current plugins consist of:
 - Weather change plugin - Can set the weather to clear, raining, or slime rain. Numpad 1, 2, and 3 default.
 - Time plugin - Can set specific time.
 - InstaKill plugin - Spawns a projectile at your cursor that will instakill most creatures in Terraria. X key default.
+- Summon plugin - Spawn in any enemy using this list of IDs https://terraria.gamepedia.com/NPC_IDs
 
 I will be adding more in the future, so stay tuned!
 
