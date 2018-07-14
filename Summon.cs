@@ -23,7 +23,7 @@ namespace WalrusPlugins
             {
                 Main.NewText("Usage:");
                 Main.NewText("    Note: A full list of NPC IDs can be found at https://terraria.gamepedia.com/NPC_IDs.");
-                Main.NewText("    /boss <ID>");
+                Main.NewText("    /summon <ID>");
                 return true;
             }
             if (Regex.IsMatch(args[0], @"^\d+$"))
